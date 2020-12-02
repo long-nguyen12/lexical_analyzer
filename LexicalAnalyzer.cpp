@@ -1,9 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include <array>
-#include <stdlib.h>
-#include <string>
-#include <ctype.h>
 
 namespace valueIs
 {
@@ -78,7 +75,7 @@ int main(){
 
 	if(!ifile.is_open())
     {
-		std::cout << "error while opening the file\n";
+		std::cout << "Error while opening the file\n";
 		exit(0);
 	}
 

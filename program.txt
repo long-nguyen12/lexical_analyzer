@@ -1,0 +1,6 @@
+int main(){
+	int arr = 10;
+	int a, b, c;
+	c = a + b + c + 50.1000 + a * 2;
+
+}
